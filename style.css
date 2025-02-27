@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+}
+body{
+    background-color: #F4F6FF;
+}
+nav{
+    height: 30px;
+    background-color: #10375C;
+    display: flex;
+    padding: 24px 10% 24px 10%;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: gray;
+}
+#Cuadro-logo{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#Cuadro-logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+#Cuadro-info{
+    width: 40%;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+#Presentacion-uno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0px 50px 0px;
+}
+#Presentacion-dos{
+    background-color: #EB8317;
+}
+#Servicios{
+    /*border: solid 1px black;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px 10px 60px;
+}
+.Servicios-cuadros{
+    width: 20%;
+    border-radius: 15px;
+    padding: 30px;
+}
+.Servicios-img{
+    width: 100%;
+}
+.Servicios-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.Servicios-cuadros p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.Servicios-cuadros:hover{
+    background-color: #c97a38;
+}
+#Boton{
+    padding: 0px 0px 20px 0px;
+}
+#Boton button{
+    width: 30%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin-left: 35%;
+}
+footer{
+    background-color: #10375C;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+#Enlaces{
+    padding-top: 5px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+}
+#Enlaces a:hover{
+    color: lightblue
+}
+footer p{
+    padding-top: 5px;
+    color: gray;
+}
+h3{
+    color: lightgray;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+dl{
+    padding-top: 5px;
+    color:gray;
+    text-align: center;
+}
